@@ -28,7 +28,7 @@ void Average(int[,] massive)
                 res1 = res1 + massive[i,j]; 
             }
         res1 = res1/(massive.GetLength(0));
-        Console.WriteLine(res1);        
+        Console.WriteLine($"{res1:f1}");        
 
     }
 }
